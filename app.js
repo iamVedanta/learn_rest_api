@@ -1,12 +1,25 @@
 const express = require('express');
 const app = express();
 
+
+
+
+
+
+
+const PORT = process.env.PORT || 5000;
+//this will select the available port while hosting 
+const products_routes = require("./routes/products");
+
+
+
 app.get("/",(req,res)=>{
     res.send("hi I am live");
 })
 
-const PORT = process.env.PORT || 5000;
-//this will select the available port while hosting 
+//middleware or to set router
+app.use("/api/products", products_routes)
+
 
 const start = async() => {
     try{
