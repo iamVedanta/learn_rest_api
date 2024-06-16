@@ -1,8 +1,6 @@
 const express = require('express');
 const app = express();
-
-
-
+const connectDB = require('./db/connect');
 
 
 
@@ -23,6 +21,7 @@ app.use("/api/products", products_routes)
 
 const start = async() => {
     try{
+        await connectDB();  //connection to database
         app.listen(PORT, ()=>{
             console.log(`${PORT} Yes I am connected`);
             console.log("server is running on port 3000");
