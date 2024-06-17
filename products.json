@@ -1,0 +1,62 @@
+[
+    {
+        "name": "iPhone 14 Pro Max",
+        "price": 1099,
+        "feature": true,
+        "company": "apple"
+    },
+    {
+        "name": "Galaxy S23 Ultra",
+        "price": 1188,
+        "feature": true,
+        "company": "samsung"
+    },
+    {
+        "name": "XPS 13 Laptop",
+        "price": 899,
+        "feature": true,
+        "company": "dell"
+    },
+    {
+        "name": "Redmi Note 12 Pro+",
+        "price": 349,
+        "feature": true,
+        "company": "mi"
+    },
+    {
+        "name": "Pixel 7 Pro",
+        "price": 899,
+        "feature": true,
+        "company": "google"
+    },
+    {
+        "name": "Inspiron 15 Laptop",
+        "price": 649,
+        "feature": true,
+        "company": "dell"
+    },
+    {
+        "name": "Mi 12 Ultra",
+        "price": 799,
+        "feature": true,
+        "company": "mi"
+    },
+    {
+        "name": "Galaxy Z Fold4",
+        "price": 1799,
+        "feature": true,
+        "company": "samsung"
+    },
+    {
+        "name": "MacBook Air M2",
+        "price": 1249,
+        "feature": true,
+        "company": "apple"
+    },
+    {
+        "name": "Surface Laptop Studio",
+        "price": 1599,
+        "feature": true,
+        "company": "microsoft"
+    }
+]
