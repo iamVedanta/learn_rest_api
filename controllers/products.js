@@ -2,9 +2,11 @@ const Product = require("../models/product");
 
 const getAllProducts = async(req,res)=>{
 
-    const myData = await Product.find({});//getting all the data from the database
-    console.log(res);
-    console.log(myData);
+    const myData = await Product.find(req.query);//getting all the data from the database
+    //
+    // console.log(res);
+    // console.log(myData);
+    console.log(req.query);
     res.status(200).json(myData);
 };
 
